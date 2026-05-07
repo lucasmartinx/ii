@@ -1,4 +1,4 @@
-print("ola mundo")
-print("ola mundo2")
-print("ola mundo3")
-print("hello word")
+from servidor import Servidor
+
+serv = Servidor("localhost",9000)
+serv.start()
