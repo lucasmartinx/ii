@@ -51,3 +51,4 @@ class Servidor():
                       client, ": ", e.args)
                 con.send(bytes("Erro", 'ascii'))
                 return
+                print("teste")
